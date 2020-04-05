@@ -1,0 +1,42 @@
+name: fast_shopping
+description: Simple app for easy shopping list making, developed with simplicity in mind.
+
+version: 2.0.2+7
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animations: ^1.0.0+5
+  built_collection: ^4.3.2
+  built_value: ^7.0.4
+  devicelocale: ^0.2.1
+  flutter_redux: ^0.6.0
+  flutter_svg: ^0.17.1
+  md2_tab_indicator: ^1.0.2
+  redux_thunk: ^0.3.0
+  redux: ^4.0.0
+  shared_preferences: ^0.5.6+1
+  timeago: ^2.0.22
+  url_launcher: ^5.4.2
+  uuid: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  
+  build_runner: ^1.7.3
+  built_value_generator: ^7.0.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.svg
+    - assets/arrow_fab.svg
+    - assets/arrow_bottom_app_bar.svg
+    - assets/shopping_bags_woman.svg
+
+    # Internationalization
+    - lib/i18n/messages/
